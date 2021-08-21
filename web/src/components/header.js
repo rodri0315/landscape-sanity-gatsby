@@ -36,7 +36,11 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
             <div className='row'>
               <div className='col-md-8 offset-md-2 intro-text'>
                 <h1>
-                  J&M Lawn Service
+                  J&M
+                  <span></span>
+                </h1>
+                <h1>
+                  Lawn Service
                   <span></span>
                 </h1>
                 <p>Full-service company that aims to help your lawn and landscape look its best.</p>
