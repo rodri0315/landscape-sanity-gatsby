@@ -170,8 +170,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: #6D8D62;
+  background-image: linear-gradient(to right, #6D8D62 0%, #A9BA71 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -188,7 +188,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #A9BA71;
 }
 .btn:active,
 .btn.active {
@@ -212,7 +212,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  /* background: url(../img/intro-bg.jpg) center center no-repeat; */
+  background: url(../../public/img/house-front-grass.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -508,7 +508,7 @@ header .intro-text {
   border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
-  color: #1f386e;
+  color: #01eb62;
   background: #fff;
 }
 label {
@@ -611,11 +611,11 @@ label {
 
 a:hover {
   /* text-decoration: underline !important; */
-  color: #4dd0e1 !important;
+  color: #4dd0e1;
 }
 a:focus, a:active {
    /* text-decoration: underline !important; */
-  color: #00bcd4 !important;
+  color: #00bcd4;
 }
 
 @media screen and (max-width: 400px) {
