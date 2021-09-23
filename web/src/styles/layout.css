@@ -212,7 +212,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../../public/img/house-front-grass.jpg) center center no-repeat;
+  background: url('../images/house-front-grass.jpg') center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
