@@ -3,10 +3,12 @@ import Header from './header'
 
 import '../styles/layout.css'
 import styles from './layout.module.css'
+import { Contact } from './contact'
 
 const Layout = ({ children, companyInfo, onHideNav, onShowNav, showNav, siteTitle }) => (
   <>
     <Header siteTitle={siteTitle} onHideNav={onHideNav} onShowNav={onShowNav} showNav={showNav} />
+    <Contact />
     <div className={styles.content}>{children}</div>
     <footer className={styles.footer}>
       <div className={styles.footerWrapper}>
